@@ -1,5 +1,6 @@
 {
     "require": {
-        "behat/behat": "~3.0"
+        "behat/behat": "~3.0",
+        "chekote/noun-store": "^1.0"
     }
 }
