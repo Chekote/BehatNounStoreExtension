@@ -1,4 +1,20 @@
 {
+    "name": "chekote/behat-noun-store-extension",
+    "description": "Behat Extension for the Noun-Store package",
+    "keywords": ["persistence", "state", "test"],
+    "type": "behat-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Donald Tyler",
+            "email": "domhnall.tilliere@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Chekote\\BehatNounStoreExtension": "src/"
+        }
+    },
     "require": {
         "behat/behat": "~3.0",
         "chekote/noun-store": "^1.0"
