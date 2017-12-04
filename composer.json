@@ -2,5 +2,8 @@
     "require": {
         "behat/behat": "~3.0",
         "chekote/noun-store": "^1.0"
+    },
+    "require-dev": {
+        "friends-of-behat/test-context": "^1.0"
     }
 }
