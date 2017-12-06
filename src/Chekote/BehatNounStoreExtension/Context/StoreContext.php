@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Chekote\BehatNounStoreExtension\Context;
 
 use Behat\Behat\Context\Context;
+use Chekote\NounStore\Store;
 use Exception;
-use nounstore\Store;
 use RuntimeException;
 
 /**

@@ -194,16 +194,16 @@
         },
         {
             "name": "chekote/noun-store",
-            "version": "1.0",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chekote/noun-store.git",
-                "reference": "7dc4e4ea392d9e12817bbb91e0d9df442afdc289"
+                "reference": "e862437b405d173ef6a493e73ab633acd4141eb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chekote/noun-store/zipball/7dc4e4ea392d9e12817bbb91e0d9df442afdc289",
-                "reference": "7dc4e4ea392d9e12817bbb91e0d9df442afdc289",
+                "url": "https://api.github.com/repos/Chekote/noun-store/zipball/e862437b405d173ef6a493e73ab633acd4141eb8",
+                "reference": "e862437b405d173ef6a493e73ab633acd4141eb8",
                 "shasum": ""
             },
             "require": {
@@ -230,7 +230,7 @@
                 "noun",
                 "testing"
             ],
-            "time": "2017-11-05T18:27:23+00:00"
+            "time": "2017-12-06T15:43:27+00:00"
         },
         {
             "name": "container-interop/container-interop",
