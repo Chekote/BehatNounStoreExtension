@@ -2,8 +2,8 @@
 
 ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )"/.. && pwd )"
 
-. "${ROOT}"/bin/lib/tty.sh
 . "${ROOT}"/docker/lib/docker_host_user_id.sh
+. "${ROOT}"/docker/lib/tty.sh
 
 docker run \
     -e LOCAL_USER_ID=${DOCKER_HOST_USER_ID} \
