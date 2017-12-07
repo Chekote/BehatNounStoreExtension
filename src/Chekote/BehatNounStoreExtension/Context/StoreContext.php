@@ -25,6 +25,17 @@ class StoreContext implements Context
     }
 
     /**
+     * Resets the store before each Scenario.
+     *
+     * @BeforeScenario
+     */
+    public function reset() {
+        $this->store->reset();
+
+        // @todo: implement store initialization hook
+    }
+
+    /**
      * Ensures that the specified value is stored under the specified key.
      *
      * @Given the value :value is stored as :key
