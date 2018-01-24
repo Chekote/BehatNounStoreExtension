@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Chekote\BehatNounStoreExtension\Context;
 
 use Behat\Behat\Context\Context;
+use Chekote\NounStore\Assert;
 use Chekote\NounStore\Store;
 use Exception;
 use RuntimeException;
@@ -14,6 +15,9 @@ use RuntimeException;
  */
 class StoreContext implements Context
 {
+    /** @var Assert the store assert instance */
+    protected $assert;
+
     /** @var Store the store instance */
     protected $store;
 
@@ -23,6 +27,7 @@ class StoreContext implements Context
     public function __construct()
     {
         $this->store = new Store();
+        $this->assert = new Assert($this->store);
     }
 
     /**
@@ -64,7 +69,7 @@ class StoreContext implements Context
      */
     public function assertValueIsStored(string $key, $expected, bool $not = false): void
     {
-        $actual = $this->store->assertHas($key);
+        $actual = $this->assert->keyExists($key);
 
         if (!$not && $actual !== $expected) {
             throw new RuntimeException(
