@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccdd444a9273bf2c8caf92117b4a3558",
+    "content-hash": "3d21ec0d57c483daa42e1344a7f251de",
     "packages": [
         {
             "name": "behat/behat",
@@ -194,22 +194,23 @@
         },
         {
             "name": "chekote/noun-store",
-            "version": "v1.1",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chekote/noun-store.git",
-                "reference": "e862437b405d173ef6a493e73ab633acd4141eb8"
+                "reference": "9fa8bb9d82d676c01424a6040ec697dd9c3f3eb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chekote/noun-store/zipball/e862437b405d173ef6a493e73ab633acd4141eb8",
-                "reference": "e862437b405d173ef6a493e73ab633acd4141eb8",
+                "url": "https://api.github.com/repos/Chekote/noun-store/zipball/9fa8bb9d82d676c01424a6040ec697dd9c3f3eb2",
+                "reference": "9fa8bb9d82d676c01424a6040ec697dd9c3f3eb2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.30"
             },
             "require-dev": {
+                "phake/phake": "^3.0",
                 "phpunit/phpunit": "^5.7"
             },
             "type": "library",
@@ -230,7 +231,7 @@
                 "noun",
                 "testing"
             ],
-            "time": "2017-12-06T15:43:27+00:00"
+            "time": "2018-01-24T17:05:41+00:00"
         },
         {
             "name": "container-interop/container-interop",
