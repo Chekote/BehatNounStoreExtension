@@ -18,9 +18,10 @@ class StoreContext implements Context
     protected $store;
 
     /**
-     * Constructor
+     * Constructor.
      */
-    public function __construct() {
+    public function __construct()
+    {
         $this->store = new Store();
     }
 
@@ -29,7 +30,8 @@ class StoreContext implements Context
      *
      * @BeforeScenario
      */
-    public function reset() {
+    public function reset()
+    {
         $this->store->reset();
 
         // @todo: implement store initialization hook
