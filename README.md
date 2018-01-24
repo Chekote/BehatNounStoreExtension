@@ -1,3 +1,5 @@
+[![CircleCI](https://img.shields.io/circleci/project/github/Chekote/BehatNounStoreExtension/master.svg)](https://circleci.com/gh/Chekote/BehatNounStoreExtension/tree/master)
+
 # BehatNounStoreExtension
 Behat Extension for the Noun-Store package
 
