@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d21ec0d57c483daa42e1344a7f251de",
+    "content-hash": "511ae22a8505f16c80c65e4873fd6819",
     "packages": [
         {
             "name": "behat/behat",
@@ -194,31 +194,30 @@
         },
         {
             "name": "chekote/noun-store",
-            "version": "v2.1.0",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chekote/noun-store.git",
-                "reference": "9fa8bb9d82d676c01424a6040ec697dd9c3f3eb2"
+                "reference": "f87f9b0abf918bbbe84344aa589225d759d049b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chekote/noun-store/zipball/9fa8bb9d82d676c01424a6040ec697dd9c3f3eb2",
-                "reference": "9fa8bb9d82d676c01424a6040ec697dd9c3f3eb2",
+                "url": "https://api.github.com/repos/Chekote/noun-store/zipball/f87f9b0abf918bbbe84344aa589225d759d049b1",
+                "reference": "f87f9b0abf918bbbe84344aa589225d759d049b1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.30"
             },
             "require-dev": {
-                "phake/phake": "^3.0",
+                "phake/phake": "^2.3",
                 "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
                     "": [
-                        "src",
-                        "test"
+                        "src"
                     ]
                 }
             },
@@ -231,7 +230,7 @@
                 "noun",
                 "testing"
             ],
-            "time": "2018-01-24T17:05:41+00:00"
+            "time": "2018-10-24T19:10:48+00:00"
         },
         {
             "name": "container-interop/container-interop",
