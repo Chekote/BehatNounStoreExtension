@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: chekote/php:7.1.13-behat
+      - image: chekote/php:7.3.7.a-behat3.4
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
