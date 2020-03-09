@@ -17,7 +17,7 @@
     },
     "require": {
         "behat/behat": "~3.0",
-        "chekote/noun-store": "^2.0"
+        "chekote/noun-store": "^3.1"
     },
     "require-dev": {
         "friends-of-behat/test-context": "^1.0"
